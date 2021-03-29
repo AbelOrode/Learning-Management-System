@@ -7,3 +7,8 @@ A laravel web application project presented in partial fulfillments of the requi
 # Dashboard - Server Side
 ![Dashboard](https://user-images.githubusercontent.com/48480130/112781003-edb0e800-9041-11eb-9542-bd3e955a9c85.png)
 
+# E-Shop with PayPal API
+![E-Book store](https://user-images.githubusercontent.com/48480130/112781140-2bae0c00-9042-11eb-8880-8e1e17280671.png)
+
+![PayPal Service](https://user-images.githubusercontent.com/48480130/112781147-2d77cf80-9042-11eb-876b-e72e8afc448b.png)
+
