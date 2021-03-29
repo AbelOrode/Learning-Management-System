@@ -1,3 +1,5 @@
-<footer class="main-footer">
-    &copy; 2021 <a href="http://www.linkedin.com/abel-orode/1bb71b145">Abel Orode</a>. All Rights Reserved.
-</footer>
+  <footer class="main-footer">
+    <div class="pull-right d-none d-sm-inline-block">
+    </div>
+	  &copy;2021 &nbsp;<b>a00288615</b>.
+  </footer>

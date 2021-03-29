@@ -7,11 +7,6 @@ use Illuminate\Http\Request;
 
 class PublicController extends Controller
 {
-    /**
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
-     *
-     * This function returns the homepage
-     */
     public function index(){
         $posts = Post::all();
         return view('welcome', compact('posts'));
@@ -28,9 +23,5 @@ class PublicController extends Controller
 
     public function contact(){
         return view('contact');
-    }
-
-    public function contactPost(){
-
     }
 }
