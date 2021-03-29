@@ -21,5 +21,30 @@ A laravel web application project presented in partial fulfillments of the requi
 
 
 # How to use
+1. Open terminal (CLI) and run the command below:
 
-1. git clone https://
+ . git clone https://github.com/AbelOrode/Learning-Management-System.git
+ . cd Learning-Management-System
+ 
+2. Run composer install & npm to install all dependencies
+
+ . compostall install
+ . npm install && npm run dev
+ 
+3. Create a database for the project by modifying .env file
+
+ . set DB_DATABASE = "Your schema name";
+ . set DB_USERNAME = "Enter your usename (usually assigned 'root')";
+ . set DB_PASSWORD = "Enter your password";
+ 
+4. Generate application key by running the command below via CLI
+ . php aritsan key:generate
+ 
+5. Execute the migration command
+. PHP artisan migrate
+
+6. Execute the command below to create a storage dirctory in the public directory
+.php artisan make:storagelink
+
+Note: To have access to all admin features in the dashboard, manaully add the value "Admin" to the usertype column in the user table to any registered user(s) in the system. This can be done easily using MySQL workbench.
+
